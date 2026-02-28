@@ -1,23 +1,58 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<meta charset="UTF-8">
+		<meta name="robots" content="all">
+		<meta name="title" content="Quentin Lequeux">
+		<meta name="author" content="Quentin Lequeux">
+		<meta name="generator" content={Astro.generator}>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Portfolio de Quentin Lequeux, développeur web fullstack">
+		<meta name="keywords" content="portfolio, front-end, back-end, SEO, UX, UI, web, webdesign, wordpress, CSS, HTML,
+		PHP, Laravel, JavaScript, TypeScript, Quentin, Lequeux, Quentin Lequeux, HEPL, infographie, responsive, mobile,
+		multimédia, SQL, MySQL, React, Vue, fullstack, design, programmation, digital, Figma, SCSS, Tailwind, Git, Github,
+		accessibilité, API">
+
+		<!-- Open Graph -->
+
+        <meta property="og:locale" content="fr_BE">
+		<meta property="og:type" content="website">
+        <meta property="og:title" content="Quentin Lequeux">
+        <meta property="og:sitename" content="Quentin Lequeux">
+        <meta property="og:url" content="https://quentinlequeux.be">
+        <meta property="og:description" content="Portfolio de Quentin Lequeux, développeur web fullstack">
+
+		<!-- Favicon -->
+
+		<link rel="icon" sizes="24x24" type="image/svg" href="/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="24x24" type="image/svg" href="/favicon.svg">
+    	<link rel="apple-touch-icon-precomposed" sizes="24x24" type="image/svg" href="/favicon.svg">
+
+		<!-- Adobe Fonts -->
+
+		<link rel="stylesheet" href="https://use.typekit.net/vit7hxw.css">
+
+		<!-- SEO -->
+
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Person",
+				"name": "Quentin Lequeux",
+				"url": "https://quentinlequeux.be",
+				"jobTitle": "développeur web fullstack",
+				"sameAs": [
+					"https://github.com/QuentinLequeux",
+					"https://www.linkedin.com/in/quentin-lequeux-8a11a3192"
+				]
+			}
+		</script>
+
+		<title>
+			Quentin Lequeux
+		</title>
 	</head>
-	<body>
+	<body class="font-nunito">
 		<slot />
 	</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
